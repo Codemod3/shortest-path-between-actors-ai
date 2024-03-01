@@ -1,4 +1,6 @@
-Write a program that determines how many “degrees of separation” apart two actors are.
+#DFS project to find the degrees between actors
+
+## The main goal of this project to implement DFS. Its main goal is to find how actors are releated with each other based on their movies
 
 $ python degrees.py large
 Loading data...
