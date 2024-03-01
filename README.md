@@ -1,16 +1,17 @@
-#DFS project to find the degrees between actors
+# DFS project to find the degrees between actors
 
 ## The main goal of this project to implement DFS. Its main goal is to find how actors are releated with each other based on their movies
 
-$ python degrees.py large
-Loading data...
-Data loaded.
-Name: Emma Watson
-Name: Jennifer Lawrence
-3 degrees of separation.
-1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Order of the Phoenix
-2: Brendan Gleeson and Michael Fassbender starred in Trespass Against Us
-3: Michael Fassbender and Jennifer Lawrence starred in X-Men: First Class
+### Sample output
+* $ python degrees.py large
+* Loading data...
+* Data loaded.
+* Name: Emma Watson
+* Name: Jennifer Lawrence
+* 3 degrees of separation.
+* 1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Order of the Phoenix
+* 2: Brendan Gleeson and Michael Fassbender starred in Trespass Against Us
+* 3: Michael Fassbender and Jennifer Lawrence starred in X-Men: First Class
 
 Background
 According to the Six Degrees of Kevin Bacon game, anyone in the Hollywood film industry can be connected to Kevin Bacon within six steps, where each step consists of finding a film that two actors both starred in.
